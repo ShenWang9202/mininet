@@ -1,0 +1,12 @@
+1. 使用官方源码安装完成后，进行简单的测试
+2. 为mininet创建一个pyenv virtual的环境
+3. 官方源码的mininet整个文件夹作为pyCharm的project根目录
+4. pyCharm中把mininet/mininet设置为源代码root。
+5. 从https://blog.csdn.net/smiling_sweety/article/details/116675038 拷贝example.py文件放到custom目录里（custom目录也要设置为源代码目录）
+6. sudo python example.py就可以看到执行结果。
+7. 注意如果出现controller已经存在的情况，要kill掉
+
+Try running the command: sudo fuser -k 6653/tcp
+
+This kills the previous controller instance.
+Hope this helps!
